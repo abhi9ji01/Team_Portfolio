@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8fcc7ec6.css",
-    "main.js": "/static/js/main.d6d316e2.js",
+    "main.js": "/static/js/main.0815d14a.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/SparklePlus.png": "/static/media/SparklePlus.9f2f064536b25e9d43be.png",
     "static/media/DegitechAmour.png": "/static/media/DegitechAmour.50fbff9b53bcc05d3322.png",
@@ -10,8 +10,8 @@
     "static/media/goprotoz.png": "/static/media/goprotoz.46ab0084c54e45eae527.png",
     "static/media/KonfigAI.png": "/static/media/KonfigAI.c8d2fb534c5ce9cf20eb.png",
     "static/media/Superleads.png": "/static/media/Superleads.63d8b91117b26fd7ca8e.png",
-    "static/media/Resume.pdf": "/static/media/Resume.b0142fa1016f9911ce7b.pdf",
     "static/media/goprotoz-site.png": "/static/media/goprotoz-site.a380bf2edd53b4310b48.png",
+    "static/media/Resume.pdf": "/static/media/Resume.9bb2fde3335e8d6107ef.pdf",
     "static/media/Kubernetes.png": "/static/media/Kubernetes.52910a4f66b62e77b5b3.png",
     "static/media/UXAnalytics.png": "/static/media/UXAnalytics.9617518c8b0fc747b319.png",
     "static/media/IBM.png": "/static/media/IBM.3ba7721337c2cf9b5ee0.png",
@@ -46,11 +46,11 @@
     "static/media/Bootstrap.png": "/static/media/Bootstrap.5f221ec70518e4c64eaa.png",
     "index.html": "/index.html",
     "main.8fcc7ec6.css.map": "/static/css/main.8fcc7ec6.css.map",
-    "main.d6d316e2.js.map": "/static/js/main.d6d316e2.js.map",
+    "main.0815d14a.js.map": "/static/js/main.0815d14a.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fcc7ec6.css",
-    "static/js/main.d6d316e2.js"
+    "static/js/main.0815d14a.js"
   ]
 }
