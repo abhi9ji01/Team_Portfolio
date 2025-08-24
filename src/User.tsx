@@ -32,8 +32,10 @@ const Info = {
     "NITian",
     "Full Stack Developer",
     "Software Engineer",
+    "NITian",
     "Frontend Developer",
     "Backend Developer",
+    "NITian",
     "Open Source Contributor",
   ],
   bio: "I'm a results-driven Full Stack Developer with strong expertise in building scalable web applications, AI-powered tools, and analytics platforms. Currently working at GoProtoz, I specialize in Next.js, Node.js, NestJS, PostgreSQL, and Kafka with a focus on performance, accessibility, and modern UX. I’ve led impactful projects like Superleads and UXAnalytics, contributed to SEO-optimized websites, and streamlined web performance for enterprise clients. Let’s build powerful digital experiences together!",
@@ -246,7 +248,7 @@ const TestimonialInfo = [
     image: PLACEHOLDER_IMAGE,
     name: "Inshal Tabresh Alam",
     stars: 5,
-    designation: "Founder & CEO, Digitrix",
+    designation: "Founder & CEO, Digitricks",
   },
 ]
 
