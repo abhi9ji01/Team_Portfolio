@@ -55,7 +55,7 @@ const About = () => {
             </span>
           </div>
           {/* <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">{Info.bio}</div> */}
-          <div className="xs-mx:w-[90%] flex gap-3 xs-mx:justify-between mt-6">
+          <div className="xs-mx:w-[90%] flex gap-3 justify-center lg:justify-start  mt-6">
               <Button
                 onClick={handleClick}
                 className="focus-visible:!outline-none !text-bgColor !w-fit xs-mx:!w-[46%] hover:!text-primaryColor hover:!bg-bgColor hover:!border-[#64FFDA] hover:!border"

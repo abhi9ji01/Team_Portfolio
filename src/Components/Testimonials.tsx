@@ -15,7 +15,7 @@ const Testimonials = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
 
   return (
-<div className="relative z-0 px-16 my-10 font-mono md-mx:px-[11px]" id="Testimonials">
+<div className="relative z-0 px-16 my-10 mt-20 font-mono md-mx:px-[11px]" id="Testimonials">
       {/* Heading */}
     <div className="relative mb-10">
   <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl text-center font-bold text-primaryColor">

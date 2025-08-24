@@ -12,6 +12,8 @@ import HOTEL_HIVE from "./assests/HotelHive.png";
 import PATHFINDING_VISUALIZER from "./assests/PathfindingVisualizer.png";
 import PROFILE_PICTURE from "./assests/profile.png";
 import ABHINAV_PICTURE from "./assests/image.jpg";
+import UDAY_PICTURE from "./assests/uday.jpg";
+import PLACEHOLDER_IMAGE from "./assests/profile_placeholder.png";
 
 import {
   IconBrandGithub,
@@ -27,6 +29,7 @@ import {
 const Info = {
   name: "Abhinav Mishra",
   stack: [
+    "NITian",
     "Full Stack Developer",
     "Software Engineer",
     "Frontend Developer",
@@ -226,24 +229,24 @@ const ProjectInfo = [
 const TestimonialInfo = [
     {
     desc: "Amazing experience working with this guy really appreciated.",
-    image: PROFILE_PICTURE,
-    name: "Abhinav Mishra",
+    image: UDAY_PICTURE,
+    name: "Uday Shankar D.",
     stars: 5,
-    designation: "CEO & Founder of DO IT NOW",
+    designation: "CEO & Founder of GoProtoz",
   },
     {
-    desc: "Ready to fuck anytime and anywhere.",
-    image: ABHINAV_PICTURE,
-    name: "Tamma Tamma",
+    desc: "Working with this team has been a game-changer. They delivered on time, exceeded expectations, and provided support even after completion.",
+    image: PLACEHOLDER_IMAGE,
+    name: "Rahul YADAV",
     stars: 5,
-    designation: "CEO & Founder of DO IT NOW",
+    designation: "Founder of Dcrayons",
   },
     {
-    desc: "Very horny guys working with this guy really appreciated.",
-    image: ABHINAV_PICTURE,
-    name: "Ooh La la",
+    desc: "They take every project seriously, treating it as if it were their own. The level of dedication and attention to detail is unmatched",
+    image: PLACEHOLDER_IMAGE,
+    name: "Inshal Tabresh Alam",
     stars: 5,
-    designation: "CEO & Founder of DO IT NOW",
+    designation: "Founder & CEO, Digitrix",
   },
 ]
 

@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="relative  sm:px-4 my-16 font-mono" id="Services">
       <h1 className="relative text-4xl mb-16 text-center font-bold text-primaryColor sm:text-3xl xs:text-2xl">
-        My Services
+        Our Services
       </h1>
 
       <div

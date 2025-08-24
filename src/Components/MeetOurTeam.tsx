@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa6";
 import image from "../../src/assests/image.jpeg";
+import abhinavImage from "../../src/assests/image.jpg";
+import snajayImage from "../../src/assests/profile.png";
+import rahulImage from "../../src/assests/rahul.jpg";
+import ashrafImage from "../../src/assests/ashraf.jpg";
+import PLACEHOLDER_IMAGE from "../../src/assests/profile_placeholder.png";
 type TeamMember = {
   name: string;
   role: string;
@@ -18,52 +23,57 @@ type TeamMember = {
 
 const MeetOurTeam = () => {
   const team: TeamMember[] = [
-    {
-      name: "Rahul",
-      role: "Backend Developer",
-      photo: image,
-      quote: "Clean code, strong architecture, scalable systems.",
-      bio: "Passionate about APIs, databases, and building robust backend solutions that just work.",
-      socials: {
-        linkedin: "https://linkedin.com/in/example",
-        github: "https://github.com/example",
-      },
-      tags: ["Node.js", "Databases", "APIs"],
-    },
-    {
+     {
       name: "Abhinav",
       role: "Full Stack Developer",
-      photo: image,
+      photo: abhinavImage,
       quote: "Bridging frontend beauty with backend power.",
       bio: "Enjoys crafting seamless applications, working across the stack from UI to server logic.",
       socials: {
         linkedin: "https://linkedin.com/in/example",
         github: "https://github.com/example",
       },
-      tags: ["React", "Node.js", "Full Stack"],
+      tags: ["Web Development", "Design", "Problem Solving"],
     },
-    {
+        {
       name: "Hitesh Yadav",
-      role: "Frontend Developer",
+      role: "Full Stack Developer",
       photo: image,
       quote: "Interfaces should be fast, fluid, and fun.",
       bio: "Frontend specialist focusing on React, animations, and delivering pixel-perfect experiences.",
-      socials: {
-        linkedin: "https://linkedin.com/in/example",
-        github: "https://github.com/example",
-      },
-      tags: ["React", "Animations", "UI/UX"],
+      tags: ["Frontend Development", "Design", "Creativity"],
     },
     {
-      name: "Rahul Ka Dost",
-      role: "Designer",
-      photo: image,
+      name: "Rahul Joshi",
+      role: "Full Stack Developer (Backend Heavy)",
+      photo: rahulImage,
+      quote: "Clean code, strong architecture, scalable systems.",
+      bio: "Passionate about APIs, databases, and building robust backend solutions that just work.",
+      tags: ["Backend Development", "Database Management", "System Design"],
+    },
+    {
+      name: "Sanjay Singh",
+      role: "Devops Engineer",
+      photo: snajayImage,
+      quote: "Building bridges between developers and infrastructure.",
+      bio: "Experienced DevOps Engineer with a focus on infrastructure automation, containerization, and cloud computing.",
+      tags: ["Devops", "Infrastructure", "Automation"],
+    },
+    {
+      name: "Syed Mohammad Ashraf",
+      role: "Senior UI/UX Designer",
+      photo: ashrafImage,
       quote: "Design is intelligence made visible.",
       bio: "Creative thinker passionate about crafting intuitive, accessible, and visually appealing designs.",
-      socials: {
-        linkedin: "https://linkedin.com/in/example",
-      },
-      tags: ["UI Design", "UX", "Creativity"],
+      tags: ["Design", "UX", "Creativity"],
+    },
+    {
+      name: "Sumit Vishwakarma",
+      role: "Cross-Platform Mobile Developer (Flutter & React Native)",
+      photo: PLACEHOLDER_IMAGE,
+      quote: "Code once, deploy everywhere.",
+      bio: "Passionate about building seamless, high-quality mobile experiences using cross-platform technologies like Flutter and React Native.",
+      tags: ["Mobile Development", "Flutter", "React Native", "Cross-Platform"],
     },
   ];
 

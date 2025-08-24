@@ -70,7 +70,7 @@ const AboutDetails = () => {
         data-aos="fade-up"
         data-aos-duration="800"
       >
-        {skills.map((skill, index) => (
+        {/* {skills.map((skill, index) => (
           <div key={index}>
             <div className="flex justify-between mb-1 font-semibold text-gray-300">
               <span>{skill.label}</span>
@@ -94,7 +94,7 @@ const AboutDetails = () => {
               />
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
 
       {/* Stats */}
