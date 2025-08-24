@@ -14,6 +14,7 @@ import AboutDetails from "./AboutDetails";
 import Education from "./Education";
 import Services from "./Services";
 import MeetOurTeam from "./MeetOurTeam";
+import Testimonials from "./Testimonials";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -34,6 +35,7 @@ const HomePage = () => {
         <Skills />
         <Projects />
         <MeetOurTeam />
+        <Testimonials />
         <Contact />
         <Footer/>
         <Mail />

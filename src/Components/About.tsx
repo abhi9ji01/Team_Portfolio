@@ -16,9 +16,13 @@ const About = () => {
     md: "md",
     lg: "lg",
   });
-  const handleClick = () => {
-  window.location.href = "mailto:abhinavmishranit1234@gmail.com";
+
+ const handleClick = () => {
+  document.getElementById("Contact")?.scrollIntoView({ 
+    behavior: "smooth" 
+  });
 };
+
   return (
     <>
       <div
@@ -59,10 +63,10 @@ const About = () => {
                 variant="filled"
                 color="#64FFDA"
               >
-                HIRE ME
+                Get in Touch
               </Button>
 
-            <Button
+            {/* <Button
               onClick={open}
               className="
                 focus-visible:!outline-none
@@ -79,7 +83,7 @@ const About = () => {
               color="#64FFDA"
             >
               GET CV
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div className="h-fit flex justify-center items-center rounded-full bs:mr-10 w-fit">

@@ -10,6 +10,8 @@ import SPARKLE_PLUS from "./assests/SparklePlus.png";
 import UX_ANALYTICS from "./assests/UXAnalytics.png";
 import HOTEL_HIVE from "./assests/HotelHive.png";
 import PATHFINDING_VISUALIZER from "./assests/PathfindingVisualizer.png";
+import PROFILE_PICTURE from "./assests/profile.png";
+import ABHINAV_PICTURE from "./assests/image.jpg";
 
 import {
   IconBrandGithub,
@@ -221,6 +223,30 @@ const ProjectInfo = [
   },
 ];
 
+const TestimonialInfo = [
+    {
+    desc: "Amazing experience working with this guy really appreciated.",
+    image: PROFILE_PICTURE,
+    name: "Abhinav Mishra",
+    stars: 5,
+    designation: "CEO & Founder of DO IT NOW",
+  },
+    {
+    desc: "Ready to fuck anytime and anywhere.",
+    image: ABHINAV_PICTURE,
+    name: "Tamma Tamma",
+    stars: 5,
+    designation: "CEO & Founder of DO IT NOW",
+  },
+    {
+    desc: "Very horny guys working with this guy really appreciated.",
+    image: ABHINAV_PICTURE,
+    name: "Ooh La la",
+    stars: 5,
+    designation: "CEO & Founder of DO IT NOW",
+  },
+]
+
 const SkillInfo = [
   {
     title: "Frontend",
@@ -415,6 +441,7 @@ export {
   Info,
   ProjectInfo,
   socialLinks,
+  TestimonialInfo,
   SkillInfo,
   ExperienceInfo,
   EducationInfo,
