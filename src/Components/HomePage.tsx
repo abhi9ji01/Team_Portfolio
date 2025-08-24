@@ -13,6 +13,7 @@ import { Toaster } from "react-hot-toast";
 import AboutDetails from "./AboutDetails";
 import Education from "./Education";
 import Services from "./Services";
+import MeetOurTeam from "./MeetOurTeam";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const HomePage = () => {
         <Education/>
         <Skills />
         <Projects />
+        <MeetOurTeam />
         <Contact />
         <Footer/>
         <Mail />
